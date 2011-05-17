@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <record>
+        <title>Cien años de soledad</title>
+        <creator>Gabriel Garcia Marquez</creator>
+        <subject>literatura universal</subject>
+        <identifier>doi:20</identifier>
+        <url>http://localhost/bidi3/data/cien.pdf</url>
+    </record>
+    <record>
+        <title>El tunel</title>
+        <creator>Ernesto Sabato</creator>
+        <identifier>doi:22</identifier>
+        <url>http://localhost/bidi3/data/eltunel.pdf</url>
+    </record>
+</metadata>
+

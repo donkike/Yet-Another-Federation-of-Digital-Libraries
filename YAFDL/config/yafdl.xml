@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yafdl>
+  	<bidi>
+        <name>EAFIT</name>
+        <protocol>SRW</protocol>
+        <url>http://localhost:8080/</url>
+    </bidi>
+    <bidi>
+        <name>UDEA</name>
+        <protocol>SRW</protocol>
+        <url>http://localhost:8081/</url>
+    </bidi>
+    <bidi>
+        <name>UDEM</name>
+        <protocol>SRW</protocol>
+        <url>http://localhost:8082/</url>
+    </bidi>
+</yafdl>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <record>
+        <title>Java</title>
+        <creator>autor1</creator>
+        <creator>autor2</creator>
+        <subject>programación</subject>
+        <subject>sistemas</subject>
+        <subject>lenguajes</subject>
+        <identifier>doi:1</identifier>
+        <url>http://localhost/bidi1/data/doc1.pdf</url>
+    </record>
+    <record>
+        <title>C#</title>
+        <creator>autor2</creator>
+        <creator>autor3</creator>
+        <subject>programación</subject>
+        <subject>microsoft</subject>
+        <identifier>doi:2</identifier>
+        <url>http://localhost/bidi1/data/doc2.pdf</url>
+    </record>
+    <record>
+        <title>Windows 2003</title>
+        <creator>autor4</creator>
+        <subject>sistemas operativos</subject>
+        <identifier>doi:3</identifier>
+        <url>http://localhost/bidi1/data/doc3.pdf</url>
+    </record>
+</metadata>
+

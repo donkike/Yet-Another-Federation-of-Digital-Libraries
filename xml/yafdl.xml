@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yafdl>
+    <bidi>
+        <name>EAFIT</name>
+        <protocol>OAI</protocol> <!—por recolección -->
+        <url>http://localhost:8080/bidi_oai_ws</url>
+    </bidi>
+    <bidi>
+        <name>UDEA</name>
+        <protocol>OAI</protocol> <!—por recolección -->
+        <url>http://localhost:8081/bidi_oai_ws</url>
+    </bidi>
+    <bidi>
+        <name>UDEM</name>
+        <protocol>SRW</protocol> <!—por búsquedas en línea -->
+        <url>http://localhost:8082/bidi_srw_ws</url>
+    </bidi>
+    .
+    <!-- otros proveedores -->
+    .
+</yafdl>
+

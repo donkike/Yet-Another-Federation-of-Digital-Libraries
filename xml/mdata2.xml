@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <record>
+        <title>Java para expertos</title>
+        <creator>Juan Mejia</creator>
+        <creator>autor2</creator>
+        <subject>programación</subject>
+        <subject>sistemas</subject>
+        <subject>lenguajes</subject>
+        <identifier>doi:10</identifier>
+        <url>http://localhost/bidi2/data/javaexpert.pdf</url>
+    </record>
+    <record>
+        <title>C# para novatos</title>
+        <creator>autor2</creator>
+        <creator>Pepe el toro</creator>
+        <subject>programación</subject>
+        <subject>microsoft</subject>
+        <identifier>doi:12</identifier>
+        <url>http://localhost/bidi2/data/csharp.pdf</url>
+    </record>
+    <record>
+        <title>Windows 2008</title>
+        <creator>Microsoft Press</creator>
+        <subject>sistemas operativos</subject>
+        <identifier>doi:13</identifier>
+        <url>http://localhost/bidi2/data/win2008.pdf</url>
+    </record>
+</metadata>
+

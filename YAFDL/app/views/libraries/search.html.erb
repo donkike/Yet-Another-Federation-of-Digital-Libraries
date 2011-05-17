@@ -1,0 +1,32 @@
+<%= content_for :title, "Query Results" %>
+
+<% if @results.empty? %>
+
+<em>No records found</em>
+
+<% else %>
+
+<table border="0" cellspacing="5" cellpadding="5">
+  <tr>
+    <th>Repository (DL)</th>
+    <th>Title</th>
+    <th>Author(s)</th>
+    <th>Subject(s)</th>
+    <th>Identifier</th>
+    <th>Document</th>
+  </tr>
+  <% for result in @results %>
+      <% for record in result['metadata']['record'] %>
+      <tr>
+        <td><%= result['repository'] %></td>
+        <td><%= record['title'] %></td>
+        <td><%= record['creator'].respond_to?('join') ? record['creator'].join(';') : record['creator'] %></td>
+        <td><%= record['subject'].respond_to?('join') ? record['subject'].join(';') : record['subject'] %></td>
+        <td><%= record['identifier'] %></td>
+        <td><%= link_to record['url'] %></td>
+      </tr>
+      <% end -%>
+  <% end -%>
+</table>
+
+<% end -%>

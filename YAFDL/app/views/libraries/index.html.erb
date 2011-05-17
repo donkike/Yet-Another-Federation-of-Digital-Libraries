@@ -1,0 +1,24 @@
+<%= content_for :title, "Query Documents" %>
+
+<%= form_tag '/libraries/search', :method => "get" do %>
+  <div id="field">
+    <%= label_tag "Field:" %>
+    <%= radio_button_tag "field", "All", true %>All
+    <%= radio_button_tag "field", "Title" %>Title
+    <%= radio_button_tag "field", "Creator" %>Creator
+    <%= radio_button_tag "field", "Subject" %>Subject
+    <%= radio_button_tag "field", "Identifier" %>Identifier
+  </div>
+  <div id="query">
+    <%= label_tag "Query:" %>
+    <%= text_field_tag "term" %>
+  </div>
+  <div id="libraries">
+    <%= label_tag "Digital library" %>
+    <p><%= radio_button_tag "library", "", true %>All</p>
+    <% for library in @libraries %>
+      <p><%= radio_button_tag "library", library.id %><%= library.name %></p>
+    <% end -%>
+  </div>
+  <div><%= submit_tag "OK" %></div>
+<% end -%>
