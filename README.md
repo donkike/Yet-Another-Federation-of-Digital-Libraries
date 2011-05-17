@@ -10,8 +10,3 @@ To create a BiDi:
 3. Put the name of that xml file in the _db/seed.rb_ file for parsing.
 
 Use the XML format defined in the _XML_ directory.
-
-Author
-------
-
-Enrique Arango Lyons.
