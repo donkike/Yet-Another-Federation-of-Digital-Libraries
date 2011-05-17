@@ -10,4 +10,6 @@ To create a BiDi:
 2. Put the xml for feeding the BiDi inside the _config_ directory.
 3. Put the name of that xml file in the _db/seed.rb_ file for parsing.
 
+Configure _yafdl.xml_ in _YAFDL/config_ directory to locate BiDi's. 
+
 Use the XML format defined in the _XML_ directory.
